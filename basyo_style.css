@@ -1,0 +1,218 @@
+
+.floor-1 {
+.switch-key {
+      display: inline-block;
+      
+      padding: 15px;
+      background-color: #96bdd7;
+      color: black;
+      border: none;
+      border-radius: 5px;
+      transition: transform 0.2s;
+      font-weight: bold;
+      margin-left: auto;
+      }
+                    
+.switch-key.enlarged {
+            transform: scale(1.35);
+                  }
+
+.flex_test-box {
+    display : flex;              /* フレックスボックスにする */
+    align-items:stretch;        /* 縦の位置指定 */
+    justify-content:center;     /*横の揃えを変更*/
+    padding:  0px;             /* 余白指定 */
+    background:#add8e6;           /* 背景色指定 */
+    flex-direction:row;         /* 要素の並び順 */
+    flex-wrap: wrap;            /* 折り返し指定 */
+    }
+.flex_test-item {
+      /* width:300px;
+      height:300px; */
+      color:black;             /* 文字色 */
+      font-size: 14px;            /* 文字サイズ指定 */
+      margin:7px;               /* 外側の余白 */
+      padding:10px;
+      border-radius: 5px;         /* 角丸指定 */
+      width: 12%;                 /* 幅指定 */
+      align-self: stretch;        /*縦の揃えを子要素ごとに変更*/
+      /* text-align:center; */
+      }
+img {
+        /* width: 60%;     */
+        width:200px;
+        height:200px;         /* 画像サイズ指定 */
+    }
+  
+.flex_test-item:nth-child(1){
+
+      background:yellow;
+      order: 1;             
+      } 
+.flex_test-item:nth-child(2){
+      
+      background: yellow;
+      order: 2;
+      }
+.flex_test-item:nth-child(3){
+       
+      background: yellow;
+      order: 3;
+      }
+.flex_test-item:nth-child(4){
+      
+      background: yellow;
+      order: 4;
+      }    
+.flex_test-item:nth-child(5){
+           
+      background:yellow;
+      order: 5;                 
+          
+      } 
+.flex_test-item:nth-child(6){
+            
+      background: yellow;
+      order: 6;                   /* 順番指定 */
+      }
+.flex_test-item:nth-child(7){
+            
+      background: yellow;
+      order: 7;                   /* 順番指定 */
+      }
+.flex_test-item:nth-child(8){
+               
+      background: yellow;
+      order: 8;                   /* 順番指定 */
+      }    
+.flex_test-item:nth-child(9){
+                 
+      background:yellow;
+      order:9;                   /* 順番指定 */
+                 
+      } 
+.flex_test-item:nth-child(10){
+                 
+      background: yellow;
+      order: 10;                   /* 順番指定 */
+      }
+ 
+
+
+
+      }
+
+.floor-2 {
+.switch-key {
+      display: inline-block;
+      
+      padding: 15px;
+      background-color: #96bdd7;
+      color: black;
+      border: none;
+      border-radius: 15px;
+      transition: transform 0.2s;
+      font-weight: bold;                /*文字の太さ　/ normal: 通常の太さ（デフォルト）/ bold: 太字　/ bolder: 親要素よりも太い / lighter: 親要素よりも細い  /  100 ~ 900 */
+       }
+            
+.switch-key.enlarged {
+      transform: scale(1.35);
+            }
+ .flex_test-box2 {
+            display : flex;              /* フレックスボックスにする */
+            align-items:stretch;        /* 縦の位置指定 *
+            justify-content:center;     /*横の揃えを変更*/
+            padding:  10px;             /* 余白指定 */
+            background:lightgreen;           /* 背景色指定 */
+            flex-direction:row;         /* 要素の並び順 */
+            flex-wrap: wrap;            /* 折り返し指定 */
+            }
+ .flex_test-item2 {
+              /* width:300px;
+              height:300px; */
+              color:black;             /* 文字色 */
+              font-size: 14px;            /* 文字サイズ指定 */
+              margin:7px;               /* 外側の余白 */
+              padding:10px;
+              border-radius: 5px;         /* 角丸指定 */
+              width: 12%;                 /* 幅指定 */
+              align-self: stretch;        /*縦の揃えを子要素ごとに変更*/
+              /* text-align:center; */
+            }
+        img {
+                /* width: 80%;                画像サイズ指定 */
+                width:200px;
+                height:200px;
+            }        
+       .flex_test-item2:nth-child(1){ 
+              
+              background:orange;
+              order: 1;                   
+            } 
+        .flex_test-item2:nth-child(2){
+            
+              background: orange;
+              order: 2;                   
+            }
+        .flex_test-item2:nth-child(3){
+                
+              background:orange;
+              order: 3;                  
+            }
+        .flex_test-item2:nth-child(4){
+                  
+              background:orange;
+              order: 4;                   
+            }    
+       .flex_test-item2:nth-child(5){
+                       
+              background: orange;
+              order: 5;                  
+            }
+       .flex_test-item2:nth-child(6){
+                        
+              background: orange;
+              order: 6;                   
+            }       
+       .flex_test-item2:nth-child(7){
+                        
+              background:orange;
+              order: 7;                   
+            }     
+       .flex_test-item2:nth-child(8){ 
+              
+              background:rgb(214, 231, 231);
+              order: 8;                   
+            } 
+       .flex_test-item2:nth-child(9){ 
+              
+              background:rgb(214, 231, 231);
+              order: 9;                   
+            } 
+       .flex_test-item2:nth-child(10){ 
+              
+              background:rgb(214, 231, 231);
+              order: 10;                   
+            }     
+       .flex_test-item2:nth-child(11){ 
+              
+              background:rgb(214, 231, 231);
+              order: 11;                   
+            } 
+       .flex_test-item2:nth-child(12){
+                        
+              background: rgb(214, 231, 231);
+              order:12;                   
+            }       
+       .flex_test-item2:nth-child(13){
+                        
+              background: rgb(214, 231, 231);
+              order:13;                   
+            }       
+
+       .flex_test-item2:nth-child(14){
+                        
+              background: rgb(214, 231, 231);
+              order:14;                   
+            }       
+      }

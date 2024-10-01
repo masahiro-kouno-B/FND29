@@ -1,0 +1,96 @@
+.floor-1 {
+.switch-key {
+      display: inline-block;
+      
+      padding: 15px;
+      background-color: #96bdd7;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      transition: transform 0.3s;
+      justify-content: center;  
+      }
+                    
+      .switch-key.enlarged {
+            transform: scale(1.5);
+                  }
+
+
+.flex_test-box {
+    display : flex;              /* フレックスボックスにする */
+    align-items:stretch;        /* 縦の位置指定 */
+    justify-content:center;     /*横の揃えを変更*/
+    padding:  0px;             /* 余白指定 */
+    background:#add8e6;           /* 背景色指定 */
+    flex-direction:row;         /* 要素の並び順 */
+    flex-wrap: wrap;            /* 折り返し指定 */
+    }
+.flex_test-item {
+      /* width:300px;
+      height:300px; */
+      color:black;             /* 文字色 */
+      font-size: 15px;            /* 文字サイズ指定 */
+      margin:7px;               /* 外側の余白 */
+      padding:10px 100px;
+      border-radius: 5px;         /* 角丸指定 */
+      width: 12%;                 /* 幅指定 */
+      align-self: stretch;        /*縦の揃えを子要素ごとに変更*/
+      /* text-align:center; */
+      }
+img {
+        /* width: 60%;     */
+        width:150px;
+        height:150px;         /* 画像サイズ指定 */
+        display:flex;
+        text-align: center;
+    }
+  
+
+
+.floor-2 {
+.switch-key {
+      display: inline-block;
+      
+      padding: 15px;
+      background-color: #96bdd7;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      transition: transform 0.3s;
+      text-align: center;           
+      }
+                    
+.switch-key.enlarged {
+      transform: scale(1.5);
+                  }
+.flex_test-box2 {
+      display : flex;              /* フレックスボックスにする */
+      align-items:stretch;        /* 縦の位置指定 */
+      justify-content:center;     /*横の揃えを変更*/
+      padding:  0px;             /* 余白指定 */
+      background:#add8e6;           /* 背景色指定 */
+      flex-direction:row;         /* 要素の並び順 */
+      flex-wrap: wrap;            /* 折り返し指定 */
+               }
+ .flex_test-item2 {
+              /* width:300px;
+              height:300px; */
+              color:black;             /* 文字色 */
+              font-size: 15px;            /* 文字サイズ指定 */
+              margin:10px;               /* 外側の余白 */
+              padding:15px;
+              border-radius: 5px;         /* 角丸指定 */
+              width: 10%;                 /* 幅指定 */
+              align-self: stretch;        /*縦の揃えを子要素ごとに変更*/
+              /* text-align:center; */
+              }
+        img {
+                /* width: 80%;                画像サイズ指定 */
+                width:150px;
+                height:150px;
+            }        
+
+       
+            }       
+}
+
